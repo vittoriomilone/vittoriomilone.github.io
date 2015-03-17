@@ -67,6 +67,40 @@ Then I tried with a spatula with a wooden handle and although working very cauti
 <p>Making a LEGO microscope: <a href="http://www.microbehunter.com/making-a-lego-microscope/">http://www.microbehunter.com/making-a-lego-microscope/</a></p>
 
 <p>Make webcams work in Linux <a href="https://help.ubuntu.com/community/Webcam">https://help.ubuntu.com/community/Webcam</a></p>
+
+<hr>
+
+<h3>
+<a id="the-microscope2" class="anchor" href="#the-microscope2" aria-hidden="true"><span class="octicon octicon-link"></span></a>The microscope/2</h3>
+
+<p>I was stimulated by some part of the lecture about the calculation of the magnification obtainable by the webcam microscope, and I tried to establish how much mine was magnifying. </p>
+
+<p>With relation to the 640x480 image i was seeing on my scren, which measured at 100% size 16x12cm with about 3 observable pixels in it, I tried to calculate the actual size of a pixel on my screen: </p>
+
+<p>my display has a native resolution of 1366X768 (10.11" × 5.68" = 57.48in² (25.68cm × 14.44cm = 370.86cm²) at 135.09 PPI, 0.188mm dot pitch, 18250 PPI² ) which makes a single pixel about 1/18250 I². </p>
+
+<p><a href="https://www.sven.de/dpi/">https://www.sven.de/dpi/</a></p>
+
+<p>The image of a single pixel I have obtained is about 64cm², that is 9.92 square inches</p>
+
+<p>So the magnification on the screen should be: 9.92 / (1/18250)= 181.040 times! </p>
+
+<p>But this is not the actual magnification of the microscope, as I think that should be calculated against the area of the webcam image sensor:</p>
+
+<p><a href="http://www.siliconimaging.com/Lens%20Image%20formats.htm">http://www.siliconimaging.com/Lens%20Image%20formats.htm</a>
+<a href="http://en.wikipedia.org/wiki/Image_sensor_format#Table_of_sensor_formats_and_sizes">http://en.wikipedia.org/wiki/Image_sensor_format#Table_of_sensor_formats_and_sizes</a></p>
+
+<p>Considering an image sensor of about 1/4" (or less), we can calculate the area of the sensor as about 7.68 square mm, that is 0.076 square cm, and obtain a final calculation of (0.076/3)/ (1/18250) =  approximately 476 times with a 1/4" sensor*, but up to 7 times less in case of smaller image sensors.</p>
+
+<p>Other resources:</p>
+
+<p><a href="http://web2.0calc.com/">http://web2.0calc.com/</a>
+<a href="http://www.instructables.com/id/DIY-Microscope/?ALLSTEPS">http://www.instructables.com/id/DIY-Microscope/?ALLSTEPS</a></p>
+
+<p><a href="http://hackteria.org/wiki/index.php/Laser-cut_microscopy_stages">http://hackteria.org/wiki/index.php/Laser-cut_microscopy_stages</a> in
+particolare il kit con il microscopio con il servo motor ed arduino</p>
+
+<p><a href="http://www.instructables.com/id/10-Smartphone-to-digital-microscope-conversion/?ALLSTEPS">http://www.instructables.com/id/10-Smartphone-to-digital-microscope-conversion/?ALLSTEPS</a></p>
       </section>
     </div>
 
